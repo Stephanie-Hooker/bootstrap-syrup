@@ -7,21 +7,35 @@
   min-height: 40vh;
 }
 .dark {
-   min-height: 30vh;
+   min-height: 46vh;
    font-size: 28px;
+   background-color: black;
 }
 .grey {
  background-color: #f2f2f2;
   min-height: 30vh;
+  padding: 150px;
 }
 .black {
   min-height: 10vh;
+  background-color: black;
+  
 }
 
 /*nav has to be set to width 100% in order for it to flex right*/
-nav {
-  width: 100%;
+.nav-full-width {
+  width: 75%;
 }
 img {
   min-height: 5vh;
+}
+.card {
+  margin: 10px;
+}
+.centered {
+  position:absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
 }
