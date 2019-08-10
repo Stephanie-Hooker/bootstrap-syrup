@@ -1,0 +1,27 @@
+.top {
+    min-height: 15vh;
+    justify-content: space-evenly;
+}
+.crown {
+  background-color: #d94e27;
+  min-height: 40vh;
+}
+.dark {
+   min-height: 30vh;
+   font-size: 28px;
+}
+.grey {
+ background-color: #f2f2f2;
+  min-height: 30vh;
+}
+.black {
+  min-height: 10vh;
+}
+
+/*nav has to be set to width 100% in order for it to flex right*/
+nav {
+  width: 100%;
+}
+img {
+  min-height: 5vh;
+}
